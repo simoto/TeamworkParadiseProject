@@ -1,0 +1,67 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'stylus',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json TeamworkParadise@1.0.0 No repository field.
+6 warn package.json TeamworkParadise@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'stylus', null ]
+9 verbose cache add name=undefined spec="stylus" args=["stylus",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'stylus',
+10 verbose parsed url   path: 'stylus',
+10 verbose parsed url   href: 'stylus' }
+11 silly lockFile 27c0f414-stylus stylus
+12 verbose lock stylus C:\Users\Simeon\AppData\Roaming\npm-cache\27c0f414-stylus.lock
+13 silly lockFile 27c0f414-stylus stylus
+14 silly lockFile 27c0f414-stylus stylus
+15 verbose addNamed [ 'stylus', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 5140332e-stylus stylus@
+18 verbose lock stylus@ C:\Users\Simeon\AppData\Roaming\npm-cache\5140332e-stylus.lock
+19 silly addNameRange { name: 'stylus', range: '*', hasData: false }
+20 verbose request where is /stylus
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 264023ca4adaf871
+23 verbose url raw /stylus
+24 verbose url resolving [ 'https://registry.npmjs.org/', './stylus' ]
+25 verbose url resolved https://registry.npmjs.org/stylus
+26 verbose request where is https://registry.npmjs.org/stylus
+27 info trying registry request attempt 1 at 13:54:19
+28 http GET https://registry.npmjs.org/stylus
+29 info retry will retry, error on last attempt: Error: getaddrinfo EAGAIN
+30 info trying registry request attempt 2 at 13:54:29
+31 http GET https://registry.npmjs.org/stylus
+32 info retry will retry, error on last attempt: Error: getaddrinfo EAGAIN
+33 info trying registry request attempt 3 at 13:55:29
+34 http GET https://registry.npmjs.org/stylus
+35 silly lockFile 5140332e-stylus stylus@
+36 silly lockFile 5140332e-stylus stylus@
+37 error Error: getaddrinfo EAGAIN
+37 error     at errnoException (dns.js:37:11)
+37 error     at Object.onanswer [as oncomplete] (dns.js:124:16)
+38 error If you need help, you may report this *entire* log,
+38 error including the npm and node versions, at:
+38 error     <http://github.com/npm/npm/issues>
+39 error System Windows_NT 6.1.7601
+40 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "stylus" "--save"
+41 error cwd C:\Users\Simeon\Desktop\Teamwork Paradise
+42 error node -v v0.10.32
+43 error npm -v 1.4.28
+44 error syscall getaddrinfo
+45 error code EAGAIN
+46 error errno EAGAIN
+47 verbose exit [ 1, true ]

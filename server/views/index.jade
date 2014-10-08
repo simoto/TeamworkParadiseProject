@@ -1,0 +1,18 @@
+extends includes/layout
+block main-content
+    header.nav.navbar-inverse.navbar-fixed-top
+        .container
+            .navbar-header
+                a.navbar-brand(href="#/") Movie Database
+            .navbar-collapse.collapse
+                ul.nav.navbar-nav
+                    li
+                        a(href="/") Home
+    section
+        div(ng-view)
+
+
+
+    .footer.panel-footer
+        p.text-center
+            | &copy; Team "Paradise" 2014

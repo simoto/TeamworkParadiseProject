@@ -1,6 +1,6 @@
 div(ng-repeat="movie in movies | orderBy: 'name'")
     .row
         .col-md-3
-            | {{ movie.name }}
+            a(href="#/movies/{{ movie._id }}") {{ movie.name }}
         .col-md-9
-            | {{ movie.year }}
+              | {{ movie.year | date }}

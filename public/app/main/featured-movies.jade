@@ -1,2 +1,2 @@
 div(ng-repeat="movie in movies")
-    | {{ movie.name }}
+    a(href="#/movies/{{ movie._id }}") {{ movie.name }}

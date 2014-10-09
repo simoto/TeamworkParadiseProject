@@ -1,1 +1,1 @@
-<div ng-repeat="movie in movies | orderBy: 'name'"><div class="row"><div class="col-md-3">{{ movie.name }}</div><div class="col-md-9">{{ movie.year }}</div></div></div>
+<div ng-repeat="movie in movies | orderBy: 'name'"><div class="row"><div class="col-md-3"><a href="#/movies/{{ movie._id }}">{{ movie.name }}</a></div><div class="col-md-9">{{ movie.year | date }}</div></div></div>

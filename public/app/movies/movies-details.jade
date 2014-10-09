@@ -1,0 +1,6 @@
+.container
+    h2 {{ movie.name }}
+    p {{ movie.year | date }}
+    ul
+        li(ng-repeat="tag in movie.tags")
+            | {{ tag }}

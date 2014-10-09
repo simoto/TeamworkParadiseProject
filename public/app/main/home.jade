@@ -1,0 +1,18 @@
+.container
+    .jumbotron
+        h1 Movie Database
+        h2 The best collection of movies
+    .row
+        .col-md-6
+            .panel.panel-info
+                .panel-heading.text-center
+                    | Featured
+                .panel-body(ng-include="'partials/main/featured-movies'")
+                    | Body goes here
+        .col-md-6
+            .panel.panel-info
+                .panel-heading.text-center
+                    | New
+                .panel-body(ng-include="'partials/main/new-movies'")
+                    | Body goes here
+

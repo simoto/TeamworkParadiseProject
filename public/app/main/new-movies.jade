@@ -1,0 +1,6 @@
+div(ng-repeat="movie in movies | orderBy: 'name'")
+    .row
+        .col-md-3
+            | {{ movie.name }}
+        .col-md-9
+            | {{ movie.year }}
